@@ -42,17 +42,13 @@ function App() {
   }, [transcript, listening]);
   return (
     <>
-      {listening ? (
-        <p>Go ahead I am listening</p>
-      ) : (
-        <p>Click the button and ask me anything</p>
-      )}
+      {listening ? <p>Listening...</p> : <p>Click the button </p>}
       <button
         onClick={() => {
           speech.startListening();
         }}
       >
-        Ask me anything
+        Virtual Assistant
       </button>
       {transcript && <div>{transcript}</div>}
     </>
