@@ -1,3 +1,5 @@
 # react-va
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/stackblitz-starters-1ghhac)
+react virtual assistant
+
+[Live Demo](https://reactva.netlify.app/)
